@@ -1,0 +1,3 @@
+browser-sync start --server --files ./*.html --no-open --no-notify --directory
+or we can just use npx if we don't have node or installed browser-sync pkg
+or we can install live-server in vscode and hit ctrl+shift+p and type live server 
