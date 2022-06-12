@@ -6,7 +6,7 @@ import connect from './db/connect.js';
 import dotenv from 'dotenv';
 dotenv.config();
 let arr = [];
-for (let i = 0 ; i <10;i++){  
+for (let i = 0 ; i < 50;i++){  
         let data = {};
         data.name= faker.commerce.product(),
         data.price= faker.commerce.price(),
